@@ -1,0 +1,12 @@
+.object
+{
+    position:relative;
+    -webkit-animation: slider-frame1 5s linear; /* Chrome, Safari, Opera */
+    animation: slider-frame1 5s;
+}
+
+@keyframes slider-frame1 {
+    0%{right: -100%; opacity: 0;}
+    16%{right: -100%; opacity: 0;}
+    100%{right: 0; opacity: 100;}
+}

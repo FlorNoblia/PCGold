@@ -1,0 +1,166 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.title{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    margin-left: 6%;
+}
+
+.header{
+    font-size: 1.5em;
+    padding: 5px 0;
+    max-height: 80px;
+    width: 100%;
+}
+
+.right{
+    text-align: right;
+}
+
+.footer{
+    bottom: 0;
+}
+
+.banner{
+    background-color: #000000;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.438em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner div{
+    padding: 0.625em;
+}
+
+.resize{
+    margin-top: 20px;
+    padding: 0.625em;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1em;
+    font-weight: 900;
+    background-color: #f1d01c;
+    border-radius: 0;
+    padding: 5px;
+    margin-top: 15px;
+    animation: all ease-out 0.5s;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #f19c1c;
+}
+
+.gray{
+    color: #949494;
+}
+
+.footer{
+    background-color: #f1d01c;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    font-size: 0.625em;
+    font-weight: 100;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    line-height: 20px;
+}
+
+#text{
+    float: left;
+}
+
+/*dropdown*/
+
+/*btn*/
+
+#mySidenav h1{
+    font-size: 2em;
+    color: white;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.nav-item{
+    padding: 5px;
+    color: #ffffff;
+    font-size: 0.666em;
+    margin: 0;
+}
+
+/*ANIMATION*/
+.object
+{
+    position:relative;
+    -webkit-animation: slider-frame1 5s linear; /* Chrome, Safari, Opera */
+    animation: slider-frame1 5s;
+}
+
+@keyframes slider-frame1 {
+    0%{right: -100%; opacity: 0;}
+    16%{right: -100%; opacity: 0;}
+    100%{right: 0; opacity: 100;}
