@@ -1,0 +1,5 @@
+ Falta realizar la conectividad con la base de datos, redondear el diseño y completar con las funcionalidades que se realizan por PHP o JavaScript.
+
+ La introducción y los diagramas están en el folio.
+
+ Di Si, Fernández, Martínez C., Noblía y Ruggiero.
