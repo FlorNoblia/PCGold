@@ -7,6 +7,8 @@ body{
 .header{
     height: 70px;
     text-align: center;
+    background-color: #00b8d4;
+    color: #000000;
 }
 
 .menu-item{
@@ -15,12 +17,12 @@ body{
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: #37474f;
+    color: #000000;
 }
 
 .menu-item:hover{
     text-decoration: none;
-    color: #37474f;
+    color: #000000;
 }
 
 .hvr{
@@ -28,7 +30,99 @@ body{
 }
 
 .hvr:hover{
-    color: #00b8d4;
+    color: #ffffff;
+}
+
+.nav-wrapper{
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.fixed{
+    position: fixed;
+}
+
+/*BANNER*/
+.banner{
+    background-color: #000000;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.438em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.bottom{
+    position: static;
+    bottom: 0;
+}
+
+#text{
+    float: left;
+}
+
+.mybtn{
+    display: block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.mybtn:hover{
+    color: #ffffff;
+    background-color: #f19c1c;
+}
+
+.important{
+    font-family: 'GothamNarrowBook';
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+
+.bold{
+    font-family:'GothamNarrowBlack';
+}
+
+.slider-container{
+}
+
+.mysection{
+    background-color:#62727b;
+    color: #ffffff;
+    padding: 10px;
+    text-align: justify;
+}
+
+.title{
+    font-size: 2em;
+    text-align: center;
+    font-family:'GothamNarrowLight';
+    text-transform: uppercase;
 }
 
 /*FONTS*/
@@ -47,3 +141,44 @@ body{
     src: url('/assets/localfonts/GothamNarrow-Light.otf');
 }
 
+
+/*QUERYS*/
+@media screen(min-width: 930px) {
+    
+}
+
+    .hexagon {
+        position: relative;
+        width: 70px;
+        height: 40.41px;
+        background-color: #000000;
+        margin: 20.21px 0;
+        border-left: solid 5px #00c6fc;
+        border-right: solid 5px #00c6fc;
+    }
+
+    .hexagon:before,
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        width: 49.50px;
+        height: 49.50px;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background-color: inherit;
+        left: 5.2513px;
+    }
+
+    .hexagon:before {
+        top: -24.7487px;
+        border-top: solid 7.0711px #00c6fc;
+        border-right: solid 7.0711px #00c6fc;
+    }
+
+    .hexagon:after {
+        bottom: -24.7487px;
+        border-bottom: solid 7.0711px #00c6fc;
+        border-left: solid 7.0711px #00c6fc;
+    }
