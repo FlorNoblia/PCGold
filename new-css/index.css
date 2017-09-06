@@ -1,0 +1,49 @@
+body{
+    font-size: 16px;
+    font-family:'GothamNarrowBook';
+}
+
+/*header nav*/
+.header{
+    height: 70px;
+    text-align: center;
+}
+
+.menu-item{
+    font-family: 'GothamNarrowBlack';
+    line-height: 70px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #37474f;
+}
+
+.menu-item:hover{
+    text-decoration: none;
+    color: #37474f;
+}
+
+.hvr{
+    transition: all 0.3s ease-in-out;
+}
+
+.hvr:hover{
+    color: #00b8d4;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: GothamNarrowBook;
+    src: url('/assets/localfonts/GothamNarrow-Book.otf');
+}
+
+@font-face {
+    font-family: GothamNarrowBlack;
+    src: url('/assets/localfonts/GothamNarrow-Black.otf');
+}
+
+@font-face {
+    font-family: GothamNarrowLight;
+    src: url('/assets/localfonts/GothamNarrow-Light.otf');
+}
+
