@@ -1,6 +1,6 @@
 body{
     font-size: 16px;
-    font-family:'GothamNarrowBook';
+    font-family:'Roboto-Regular';
 }
 
 /*header nav*/
@@ -12,7 +12,7 @@ body{
 }
 
 .menu-item{
-    font-family: 'GothamNarrowBlack';
+    
     line-height: 70px;
     display: block;
     text-decoration: none;
@@ -97,7 +97,7 @@ a{
 }
 
 .important{
-    font-family: 'GothamNarrowBook';
+
     font-size: 1.5em;
     text-transform: uppercase;
     color: #ffffff;
@@ -105,7 +105,7 @@ a{
 }
 
 .bold{
-    font-family:'GothamNarrowBlack';
+    font-family:'Roboto';
 }
 
 .slider-container{
@@ -121,30 +121,44 @@ a{
 .title{
     font-size: 2em;
     text-align: center;
-    font-family:'GothamNarrowLight';
+
     text-transform: uppercase;
 }
 
 /*FONTS*/
 @font-face {
-    font-family: GothamNarrowBook;
-    src: url('/assets/localfonts/GothamNarrow-Book.otf');
+    font-family: Roboto-Black;
+    src: url('/assets/localfonts/roboto/Roboto-Black.otf');
 }
 
 @font-face {
-    font-family: GothamNarrowBlack;
-    src: url('/assets/localfonts/GothamNarrow-Black.otf');
+    font-family: Roboto-Bold;
+    src: url('/assets/localfonts/roboto/Roboto-Bold.otf');
 }
 
 @font-face {
-    font-family: GothamNarrowLight;
-    src: url('/assets/localfonts/GothamNarrow-Light.otf');
+    font-family: Roboto-Medium;
+    src: url('/assets/localfonts/roboto/Roboto-Medium.otf');
 }
 
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('/assets/localfonts/roboto/Roboto-Regular.otf');
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('/assets/localfonts/roboto/Roboto-Light.otf');
+}
+
+@font-face {
+    font-family: Roboto-Thin;
+    src: url('/assets/localfonts/roboto/Roboto-Thin.otf');
+}
 
 /*QUERYS*/
 @media screen(min-width: 930px) {
-    
+
 }
 
     .hexagon {
