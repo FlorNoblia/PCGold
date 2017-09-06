@@ -136,11 +136,12 @@
                 <i class="fa fa-plus"></i>
             </a>
             <ul>
-                <li><a class="btn-floating blue"><i class="fa fa-shopping-cart"></i></a></li>
+                <li><a href="cart.html"class="btn-floating blue"><i class="fa fa-shopping-cart"></i></a></li>
                 <li><a class="btn-floating blue"><i class="fa fa-search"></i></a></li>
-                <li><a class="btn-floating blue"><i class="fa fa-user"></i></a></li>
+                <li><a href="login.html" class="btn-floating blue modal-trigger"><i class="fa fa-user"></i></a></li>
             </ul>
         </div>
+
     </div>
 
     <!--SCRIPTS-->
@@ -167,6 +168,20 @@
 
     <script>
         $(".button-collapse").sideNav();
+        $('.modal').modal({
+                dismissible: true, // Modal can be dismissed by clicking outside of the modal
+                opacity: .5, // Opacity of modal background
+                inDuration: 300, // Transition in duration
+                outDuration: 200, // Transition out duration
+                startingTop: '4%', // Starting top style attribute
+                endingTop: '10%', // Ending top style attribute
+                ready: function(modal, trigger) { // Callback for Modal open. Modal and trigger parameters available.
+                    alert("Ready");
+                    console.log(modal, trigger);
+                },
+                complete: function() { alert('Closed'); } // Callback for Modal close
+            }
+        );
     </script>
 </body>
 </html>
